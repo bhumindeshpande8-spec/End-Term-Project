@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhumi N Deshpande</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <h2 class="brand-text">Bhumi N Deshpande</h2>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#edu" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-background"></div>
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span>Hi, I'm Bhumi N Deshpande! 👋</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Computer Science Student & Aspiring Author</h2>
+                    <p class="hero-description">
+                        Passionate about creating amazing digital experiences through code and interactive storytelling
+                    </p>
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-container container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                        <div class="about-card">
+                            <p>
+                                I'm a <b>passionate CS student</b> with a love for <b>writing</b> and <b>web technologies</b>.<br>
+                                Currently <b>exploring JS </b>and modern web development while participating in <b>hackathons</b> and writing <b>self-help content.</b>
+                            </p>
+                            <p>
+                                When I'm <b>not coding</b>, you'll find me <b>writing</b> my heart out, <b>brainstorming ideas</b> or diving deep into 
+                                the <b>latest </b>trends. <br>I believe in <b>creating technology</b> that brings <b>joy</b> and <b>solves real problems.</b> <br>I thrive on <b>creative collaboration</b> and enjoy turning <b>complex ideas</b> into <b>simple, meaningful solutions.</b>
+                                Driven by <b>books and curiosity</b>, I'm always seeking ways to <b>learn, grow,</b> and make a <b>positive impact</b> through both <b>code and words.</b>
+                            </p>                            
+                        </div>
+                        <div>
+                        <img src="images/Bhumi pic.jpg" class="main" alt="mypic">
+                        <caption><i>Miss Spotlight, 2025 @SST</i></caption>
+                        </div>
+                </div>  
+            </div>
+        </section>
+
+        <section class="edu" id="edu">
+             <div class="about-container container">
+                <h2 class="section-title">Education</h2>
+                <div class="edu-content">
+                    <div class="1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsWo1kdeaFaUzefMAKHSD5Mq04PDlSBKt0gA&s"
+                        alt="schoolPic" class="eduPic">
+                        <caption>Completed schooling from <br>The Orbis School, Pune</caption>
+                    </div>
+                    <div class="2">    
+                        <img src="data:image/jpeg;base64,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" alt="collegePic" 
+                        class="eduPic">
+                        <caption>Pursuing DS & Applications from <br>IIT, Madras</caption>
+                    </div>
+                    <div class="3">
+                        <img src="images/SST.jpg" class="eduPic">
+                        <caption>Pursuing CS/AI from <br>Scaler School of Technology, Bangalore</caption>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills" id="skills">
+                <div class="skills-section">
+                    <h2 class="skills-title" style = "color:white;">My Skills</h2>
+                    <div class="skills-grid">
+
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="images/JavaScript.jpg"></div>
+                            <h3>JavaScript</h3>
+                            <div class="skill-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="skill-level">Intermediate</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="images/HTML,CSS.jpg"></div>
+                            <h3>HTML/CSS</h3>
+                            <div class="skill-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="skill-level">Intermediate</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="images/Java.jpg"></div>
+                            <h3>Java</h3>
+                            <div class="skill-progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="skill-level">Learning</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="images/writing.jpg"></div>
+                            <h3>Writing</h3>
+                            <div class="skill-progress-w">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="skill-level">Enjoying!</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="images/Bhumi mic.jpg"></div>
+                            <h3>Speaking</h3>
+                            <div class="skill-progress">
+                                <div class="progress-bar-w"></div>
+                            </div>
+                            <p class="skill-level">Practicing</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <div class="skill-icon"><img src="images/PS.jpg"></div>
+                            <h3>Problem Solving</h3>
+                            <div class="skill-progress-ps">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p class="skill-level">Advanced</p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="projects-container container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🌐</div>
+                            <h3>Clone website</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>Cloned a website: MagicBricks to enhance my HTML/CSS skills.<br></p>
+                                <span class="tech-tag HTML5">HTML5</span>
+                                <span class="tech-tag CSS">CSS</span>
+                            <div class="project-status status-development">
+                                <div class="status-dot"></div>
+                                Status: Active
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/bhumindeshpande8-spec" class="btn btn-outline" target="_blank">
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="projects/P1/magicbricks.clone.html" class="btn btn-secondary" target="_blank">
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🌤️</div>
+                            <h3>Interactive Weather Dashboard</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A weather dashboard that can show you weather of any place.<br></p>
+                                <span class="tech-tag html">HTML5</span>
+                                <span class="tech-tag css">CSS</span>
+                                <span class="tech-tag js">JavaScript</span>
+                                <span class="tech-tag responsive">Responsive</span>
+                            <div class="project-status status-ongoing">
+                                <div class="status-dot"></div>
+                                Status: Active
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/bhumindeshpande8-spec" class="btn btn-outline" target="_blank">
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="projects/P2/OSCindex.html" class="btn btn-secondary" target="_blank">
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">🎡</div>
+                            <h3>Ferris wheel</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>Created it as an Activity in class using position attribute.<br></p>
+                                <span class="tech-tag html">HTML5</span>
+                                <span class="tech-tag css">CSS</span>
+                            <div class="project-status status-active">
+                                <div class="status-dot"></div>
+                                Status: Active
+                            </div>
+                                <a href="https://github.com/bhumindeshpande8-spec" class="btn btn-outline" target="_blank">
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="projects/Proj3.html" class="btn btn-secondary" target="_blank">
+                                    <span>View</span>
+                                </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">✍🏻</div>
+                            <h3>Personal Blog</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A blog sharing poems, stories and what I learn from life (2022)<br></p>
+                                <span class="tech-tag crea">Creativity</span>
+                                <span class="tech-tag exp">Expression</span>
+                            <div class="project-status status-ongoing">
+                                <div class="status-dot"></div>
+                                Status: Active
+                            </div>
+                            <div class="project-links">
+                                <a href="https://bhumideshpande.wixsite.com/website-1" class="btn btn-secondary" target="_blank">
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">📖</div>
+                            <h3>Author Website</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>Everything you need to know about this debut author!<br></p>
+                                <span class="tech-tag crea">........</span>
+                                <span class="tech-tag exp">........</span>
+                            <div class="project-status status-ongoing">
+                                <div class="status-dot"></div>
+                                Status: Coming Soon...
+                            </div>
+                            <div class="project-links">
+                                <a href="https://www.instagram.com/writerbhumi/?next=%2F" class="btn btn-secondary" target="_blank">
+                                    <span>Click me for updates!</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-container container">
+                <h2 class="skills-title" style = "color:white;">Let's Connect!</h2>
+                <div class="contact-content">
+                    <div class="contact-box">
+                        <div class="contact-card email-card">
+                            <div class="contact-icon">📧</div>
+                            <h3>Email</h3>
+                            <a href="bhumindeshpande8@gmail.com" class="contact-value">
+                                bhumindeshpande8@gmail.com
+                            </a>
+                        </div>
+                        <div class="contact-card linkedin-card">
+                            <div class="contact-icon">💼</div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/bhumi-n-deshpande-67a109373/" class="contact-value" target="_blank">
+                                Professional Profile
+                            </a>
+                        </div>
+                        <div class="contact-card github-card">
+                            <div class="contact-icon">🐙</div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/bhumindeshpande8-spec" class="contact-value" target="_blank">
+                                My Repositories
+                            </a>
+                        </div>
+                        <div class="contact-card phone-card">
+                            <div class="contact-icon">📱</div>
+                            <h3>Instagram</h3>
+                            <a href="https://www.instagram.com/writerbhumi/?next=%2F" class="contact-value" target="_blank">
+                                @writerbhumi
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-message">
+                        <div class="message-card"><br><br><br><br><br><br>
+                            <h3>Ready to Collaborate?</h3>
+                            <p>I'm always interested in hearing about new opportunities, exciting projects, and creative collaborations. <br>Let's build something amazing together!</p>
+                            <div class="availability-status">
+                                <span>Available for new projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-content">
+                <p>&copy; 2025 Bhumi N Deshpande. Made with 💻 and lots of 🧠</p>
+                <div class="footer-links">
+                    <a href="https://github.com/bhumindeshpande8-spec" target="_blank" class="footer-link"target="_blank">
+                        <span>🐙</span> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/bhumi-n-deshpande-67a109373/" target="_blank" class="footer-link"target="_blank">
+                        <span>💼</span> LinkedIn
+                    </a>
+                    <a href="bhumindeshpande8@gmail.com" class="footer-link" target="_blank">
+                        <span>📧</span> Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+   
+</body>
+</html>

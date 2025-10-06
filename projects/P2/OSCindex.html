@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="OSCstyle.css">
+    <div class="header">
+    <header> 
+    <div class="header-left">
+    </div>
+    <div class="header-center">
+        <div id="today"><a href="#disToday">Today</a></div>
+        <div id="tomorrow"><a href="#disTomorrow">Tomorrow</a></div>
+        <div id="hourly"><a href="#disHourly">Hourly</a></div>
+        <div id="weekly"><a href="#disWeekly">Weekly</a></div>
+    </div>
+    <div class="header-right">
+        <button id="toggleDark">Change Mode</button>
+    </div>
+    </header>
+    </div> 
+</head>
+
+<body>
+<div class="content1">
+ <div class="weather-app">
+    <h1>🌤️ Weather Dashboard</h1>
+    <div class="search-box">
+      <input list="options" type="text" id="cityInput" placeholder="Enter City or Choose Popular">
+      <datalist id="options">
+      <option value="Bangalore"></option>
+      <option value="Pune"></option>
+      <option value="Delhi"></option>
+      <option value="Chennai"></option>
+      <option value="New York"></option>
+      <option value="Washington"></option>
+      <option value="Wimbledon"></option>
+      <option value="London"></option>
+      <option value="Paris"></option>
+      <option value="Zurich"></option>
+      <option value="Melbourne"></option>
+      <option value="Frankfurt"></option>
+      <option value="Beijing"></option>
+      <option value="Tokyo"></option>
+      <option value="Canberra"></option>
+      <option value="Sydney"></option>
+      </datalist>
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="weatherResult" class="weather-card hidden">
+        <img id="weatherIcon" alt="Weather icon">
+      <h2 id="cityName"></h2>
+      <p id="description"></p>
+      <p><span id="temp"></span>°C</p>
+      <p>Humidity: <span id="humidity"></span> %</p>
+      <p>Wind Speed: <span id="windSpeed"></span> m/s</p>
+      <p>Feels like: <span id="feelsLike"></span>°C</p>
+    </div>
+ </div>
+</div>
+<div class="info">
+    <p class="desc">Description</p>
+    <p class="Temp">Temperature</p>
+    <p class="FL">Feels Like</p>
+</div>
+<div class="content2">
+ <div class="grid">
+    <div class="tod" id="disToday">
+        <div class="WS0" id="WS0"><p>Today</p></div>
+        <div class="WS1" id="WS1">Weather</div>
+        <div class="WS2" id="WS2">Temperature</div>
+        <div class="WS3" id="WS3">Feels Like</div>
+    </div>
+    <div class="tom" id="disTomorrow">
+        <div class="WS0" id="WS4"><p>Tomorrow</p></div>
+        <div class="WS1" id="WS5">Weather</div>
+        <div class="WS2" id="WS6">Temperature</div>
+        <div class="WS3" id="WS7">Feels Like</div>
+    </div>
+    <div class="hour" id="disHourly">
+        <div class="WS0" id="WS8"><p>Hourly</p></div>
+        <div class="WS1" id="WS9">Weather</div>
+        <div class="WS2" id="WS10">Temperature</div>
+        <div class="WS3" id="WS11">Feels Like</div>
+    </div>
+    <div class="week" id="disWeekly">
+        <div class="WS0" id="WS12"><p>Weekly</p></div>
+        <div class="WS1" id="WS13">Weather</div>
+        <div class="WS2" id="WS14">Temperature</div>
+        <div class="WS3" id="WS15">Feels Like</div>
+    </div>
+ </div>
+</div>
+<footer>
+    <br><br><br>
+    <h2>Good Day!</h2>
+    <br><br><br><br><br>
+    <h4><span style="font-style: italic;">Made by Bhumi N Deshpande :) </span></h4>
+</footer>
+    <script src="OSCscript.js"></script>
+</body>
+</html>
